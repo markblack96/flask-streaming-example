@@ -16,4 +16,4 @@ def gen():
 
 @app.route('/audio-feed')
 def audio_feed():
-    return Response(gen(), mimetype="")
+    return Response(gen(), mimetype="x-mixed-replace")
